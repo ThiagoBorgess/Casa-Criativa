@@ -1,31 +1,85 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Casa Criativa</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    
-    <body>
-        <img src="logo.png" alt="Logo Casa Criativa">
 
-        <p>
-            Ficar em casa em períodos longos, não deve ser nada fácil.
-        </p>
-        <p>
-            Por isso, iremos catalogar ideias, <strong>brincadeiras, jogos, filmes, livros, cursos, dicas</strong> e tudo que for necessário para tornar esse momento mais interessante.
-        </p>
-        <p>
-            Comece clicando em ver ideias para ver as ideias cadastradas e contribua adicionando a sua ideia.
-        </p>
+<head>
+    <title>Casa Criativa</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
 
-        <button>+ Adicionar Ideia</button>
-        <button class="fat">Ver Ideias</button>
+<body>
+    <div id="conteiner">
 
-        <p id="footer">Com ❤ <a href="http://rocketseat.com.br">Rocketseat</a></p>
+        <section id="intro">
+            
+            <header>
+                <img src="logo.png" alt="Logo Casa Criativa">
+            </header>
+            
+            <main>
+                <p>
+                    Ficar em casa em períodos longos, não deve ser nada fácil.
+                </p>
+                <p>
+                    Por isso, iremos catalogar ideias, <strong>brincadeiras, jogos, filmes, livros, cursos, dicas</strong> e
+                    tudo que for necessário para tornar esse momento mais interessante.
+                </p>
+                <p>
+                    Comece clicando em ver ideias para ver as ideias cadastradas e contribua adicionando a sua ideia.
+                </p>    
+            </main>
+            
+            <section id="buttons">
+                <button>+ Adicionar Ideia</button>
+                <button class="fat">Ver Ideias</button>
+            </section>
+            
+            <footer>
+                <p id="footer">Com ❤ <a href="http://rocketseat.com.br">Rocketseat</a></p>
+            </footer>
+        
+        </section>
 
-        <script src="script.js"></script>
+        <section id="last-ideias">
+            <div id="ideia">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729007.svg" alt="Imagem de Curso de Programação">   
+                <div class="contet">
+                    <h3>Cursos de Programação</h3>
+                    <p>Estudo</p>
+                    <div class="description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident perspiciatis explicabo, ullam doloremque dolores, excepturi veritatis totam in quos cum exercitationem ea, sunt sint distinctio quisquam adipisci. Dolores, debitis ab.
+                    </div>
+                    <a href="#">Ir para a Ideia</a>
+                </div>
+            </div>
+            <div id="ideia">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729005.svg" alt="Imagem de Curso de Saude">   
+                <div class="contet">
+                    <h3>Exercicios</h3>
+                    <p>Saude</p>
+                    <div class="description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident perspiciatis explicabo, ullam doloremque dolores, excepturi veritatis totam in quos cum exercitationem ea, sunt sint distinctio quisquam adipisci. Dolores, debitis ab.
+                    </div>
+                    <a href="#">Ir para a Ideia</a>
+                </div>
+            </div>
+            <div id="ideia">
+                <img src="https://image.flaticon.com/icons/svg/2729/2729027.svg" alt="Imagem de Meditação">   
+                <div class="contet">
+                    <h3>Meditação</h3>
+                    <p>Mentalidade</p>
+                    <div class="description">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident perspiciatis explicabo, ullam doloremque dolores, excepturi veritatis totam in quos cum exercitationem ea, sunt sint distinctio quisquam adipisci. Dolores, debitis ab.
+                    </div>
+                    <a href="#">Ir para a Ideia</a>
+                </div>
+            </div>
+        </section>
 
-    </body>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
 
 </html>
